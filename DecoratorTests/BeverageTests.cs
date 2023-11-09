@@ -11,23 +11,23 @@ namespace DecoratorTests
         // You should use these tests to see that your solution works
         // and utilizes the decorator pattern correctly
         // NOTE! Don't modify the test themselves
-        /*
+
         [TestMethod]
         public void EspressoTest()
         {
             Beverage beverage = new Espresso();
-            Assert.AreEqual("Espresso", beverage.GetDescription());
-            Assert.AreEqual(1.99M, beverage.Cost());
+            Assert.AreEqual("Espresso", beverage.getDescription());
+            Assert.AreEqual(1.99, beverage.cost());
         }
-        /*
+        
         [TestMethod]
         public void HouseBlendTest()
         {
             Beverage beverage = new HouseBlend();
-            Assert.AreEqual("House Blend Coffee", beverage.GetDescription());
-            Assert.AreEqual(0.89M, beverage.Cost());
+            Assert.AreEqual("House Blend Coffee", beverage.getDescription());
+            Assert.AreEqual(0.89, beverage.cost());
         }
-        /*
+        
         [TestMethod]
         public void DarkRoastWithCondimentsTest()
         {
@@ -35,10 +35,10 @@ namespace DecoratorTests
             beverage = new Mocha(beverage);
             beverage = new Mocha(beverage);
             beverage = new Whip(beverage);
-            Assert.AreEqual("Dark Roast Coffee, Mocha, Mocha, Whip", beverage.GetDescription());
-            Assert.AreEqual(1.49M, beverage.Cost());
+            Assert.AreEqual("Dark Roast Coffee, Mocha, Mocha, Whip", beverage.getDescription());
+            Assert.AreEqual(1.49, beverage.cost());
         }
-        /*
+        
         [TestMethod]
         public void HouseBlendWithCondimentsTest()
         {
@@ -46,19 +46,18 @@ namespace DecoratorTests
             beverage = new Soy(beverage);
             beverage = new Mocha(beverage);
             beverage = new Whip(beverage);
-            Assert.AreEqual("House Blend Coffee, Soy, Mocha, Whip", beverage.GetDescription());
-            Assert.AreEqual(1.34M, beverage.Cost());
+            Assert.AreEqual("House Blend Coffee, Soy, Mocha, Whip", beverage.getDescription());
+            Assert.AreEqual(1.34, beverage.cost());
         }
-        /*
+        
         [TestMethod]
         public void DecafWithCondimentsTest()
         {
             Beverage beverage = new Decaf();
             beverage = new Mocha(beverage);
             beverage = new Whip(beverage);
-            Assert.AreEqual("Decaf Coffee, Mocha, Whip", beverage.GetDescription());
-            Assert.AreEqual(1.35M, beverage.Cost());
+            Assert.AreEqual("Decaf Coffee, Mocha, Whip", beverage.getDescription());
+            Assert.AreEqual(1.35, beverage.cost());
         }
-        Remove this too after the enabling the final test*/
     }
 }
