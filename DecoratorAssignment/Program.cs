@@ -98,7 +98,7 @@ namespace DecoratorAssignment
         }
         public new String getDescription()
         {
-            return beverage.getDescription() + ", Milk";
+            return beverage.getDescription();
         }
         public override double cost()
         {
@@ -117,7 +117,7 @@ namespace DecoratorAssignment
         }
         public new String getDescription()
         {
-            return beverage.getDescription()+ ", Mocha";
+            return beverage.getDescription();
         }
         public override double cost()
         {
@@ -135,7 +135,7 @@ namespace DecoratorAssignment
         }
         public new String getDescription()
         {
-            return this.beverage.getDescription() + ", Soy";
+            return this.beverage.getDescription();
         }
         public override double cost()
         {
@@ -154,7 +154,7 @@ namespace DecoratorAssignment
         }
         public new String getDescription()
         {
-            return beverage.getDescription() + ", Whip";
+            return beverage.getDescription();
         }
         public override double cost()
         {
